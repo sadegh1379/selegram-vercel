@@ -1,0 +1,186 @@
+@font-face {
+    font-family: BYekan;
+    src: url('./font/BYekan.ttf') , url('./font/BYekan.eot') , url('./font/BYekan.woff');
+  }
+
+
+html , body , #root{
+    margin: 0px ;
+    padding:0px;
+    background-color: #FFFF;
+    overflow-x: hidden;
+}
+.font-yekan{
+    font-family: BYekan !important;
+  }
+label{
+    color:#009FFF ;
+    font-size: 14px;
+    
+    font-weight: small !important;
+   
+    /* margin-right: 10px; */
+    font-family: BYekan !important;
+}
+
+.color-text{
+  color:#404D66
+}
+
+input[type='radio']:checked:after {
+  
+  background-color: #009FFF;
+  visibility: visible;
+  
+}
+
+.text-center{
+  text-align: center;
+}
+
+.no-scroll::-webkit-scrollbar{
+  display: none;
+
+}
+.no-scroll{
+  -ms-overflow-style: none ;
+  scrollbar-width: none;
+}
+
+.lighblue{
+  color:#009FFF !important;
+}
+.font-10-px{
+  font-size: 10px;
+  color:'#616161'
+}
+.font-16-px{
+  font-size: 16px;
+  /* color:'#616161' */
+}
+.font-12-px{
+  font-size: 12px;
+}
+.text-right{
+  text-align: right;
+}
+.text-left{
+  text-align: left;
+}
+
+.opacity{
+  opacity: 0.8;
+  
+}
+
+.money-color{
+  color:#009FFF;
+  font-size:18px;
+  font-weight: bolder  ;
+}
+
+.toman-blue{
+  font-size: 12px;
+  color:#009FFF ;
+  
+}
+
+button{
+  font-family: BYekan;
+}
+
+.font-14{
+  font-size: 14px;
+  font-family: BYekan;
+}
+
+.opactity-30{
+  opacity: 30% !important;
+}
+
+.mr-5{
+  margin-right: 5px;
+}
+
+.bold{
+  font-size: bold;
+}
+
+.opacity-5{
+  opacity: 0.5;
+}
+.opacity-8{
+  opacity: 80%;
+}
+
+.d-flex{
+  display: flex;
+
+}
+
+.flex-between{
+  justify-content: space-between;
+}
+.flex-items-center{
+  align-items: center;
+}
+.width-100{
+  width: 100%;
+}
+.space-around{
+  justify-content: space-around;
+}
+.mr-2{
+  margin-right: 2px;
+}
+.ml-5{
+  margin-left: 5px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+
+.btn-animation{
+  transition-property: all;
+  transition-duration: 5s;
+  transition-timing-function: linear;
+}
+
+input{
+  color:black !important;
+  font-family: BYekan !important;
+}
+
+.mb-25{
+  margin-bottom: 25px;
+}
+
+.mb-100{
+  margin-bottom: 100px;
+}
+
+.mt-15{
+  margin-top: 15px;
+}
+
+.padding-10{
+  padding: 10px;
+}
+
+.MuiBadge-badge{
+  background-color: #009FFF !important;
+}
+.MuiBadge-colorSecondary{
+  background-color: #d62222 !important;
+}
+
+.line-through{
+  text-decoration: line-through;
+}
+
+.MuiGridListTileBar-root{
+  /* background-color: red !important; */
+  height: 20px !important;
+}
+
+
